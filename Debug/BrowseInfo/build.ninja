@@ -1,0 +1,41 @@
+##IAR Ninja build file
+
+
+#Rules
+rule COMPILER_XCL
+  command = F$:\IAR\common\bin\XclFileGenerator.exe $xclcommand -f "$rspfile_name"
+  description = IAR_NEW_TOOL+++COMPILER_XCL+++$in+++F$:\IAR\common\bin\XclFileGenerator.exe $flags
+  rspfile = $rspfile_name
+  rspfile_content = $flags
+
+rule INDEXER
+  command = F$:\IAR\common\bin\SourceIndexer.exe $flags
+  depfile = $out.dep
+  description = IAR_NEW_TOOL+++INDEXER+++$out+++F$:\IAR\common\bin\SourceIndexer.exe $flags
+
+rule MAKEBROWSE
+  command = F$:\IAR\common\bin\makeBrowseData.exe $flags
+  description = IAR_NEW_TOOL+++MAKEBROWSE+++$out+++F$:\IAR\common\bin\makeBrowseData.exe $flags
+
+rule PDBLINK
+  command = F$:\IAR\common\bin\PbdLink.exe $flags
+  description = IAR_NEW_TOOL+++PDBLINK+++$out+++F$:\IAR\common\bin\PbdLink.exe $flags
+
+
+
+#Build steps
+build F$:\download\KOLODIY\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file F$:\download\KOLODIY\main.cpp -xcl_file F$:\download\KOLODIY\Debug\BrowseInfo\main.xcl -macro_file F$:\download\KOLODIY\Debug\BrowseInfo\main.tmp -icc_path F$:\IAR\arm\bin\iccarm.exe
+  flags = F$:\download\KOLODIY\main.cpp -o F$:\download\KOLODIY\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --libc++ -Ol --c++ --no_exceptions --no_rtti --predef_macros F$:\download\KOLODIY\Debug\BrowseInfo\main.tmp
+  rspfile_name = F$:\download\KOLODIY\Debug\BrowseInfo\main.xcl.rsp
+
+build F$:\download\KOLODIY\Debug\BrowseInfo\main.pbi : INDEXER F$:\download\KOLODIY\Debug\BrowseInfo\main.xcl |  $
+F$:\download\KOLODIY\main.cpp
+  flags = -out=F$:\download\KOLODIY\Debug\BrowseInfo\main.pbi -f F$:\download\KOLODIY\Debug\BrowseInfo\main.xcl
+
+build F$:\download\KOLODIY\Debug\BrowseInfo\FirstProgect.pbw : MAKEBROWSE F$:\download\KOLODIY\Debug\BrowseInfo\FirstProgect.pbd
+  flags = F$:\download\KOLODIY\Debug\BrowseInfo\FirstProgect.pbd -output F$:\download\KOLODIY\Debug\BrowseInfo\FirstProgect.pbw
+
+build F$:\download\KOLODIY\Debug\BrowseInfo\FirstProgect.pbd : PDBLINK F$:\download\KOLODIY\Debug\BrowseInfo\main.pbi
+  flags = -M F$:\download\KOLODIY\Debug\BrowseInfo\FirstProgect.pbd F$:\download\KOLODIY\Debug\BrowseInfo\main.pbi
+
