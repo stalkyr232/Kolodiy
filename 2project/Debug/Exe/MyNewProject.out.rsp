@@ -1,0 +1,1 @@
+﻿F:\Github\POIP\MyNewProject\Debug\Obj\main.o --no_out_extension -o F:\Github\POIP\MyNewProject\Debug\Exe\MyNewProject.out --map F:\Github\POIP\MyNewProject\Debug\List\MyNewProject.map --config R:\POIP\POIP\MyNewProject\MyNewProject.icf --semihosting --entry __iar_program_start --vfe --text_out locale --cpu=Cortex-M4 --fpu=VFPv4_sp

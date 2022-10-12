@@ -1,0 +1,40 @@
+F:\Github\Kolodiy\3Project\Debug\BrowseInfo\main.pbi: \
+  F:\Github\Kolodiy\3Project\main.cpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\STM32F411\rccregisters.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\STM32F411\FieldValues\rccfieldvalues.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\fieldvalue.hpp \
+  F:\IAR\arm\inc\cpp\cstddef F:\IAR\arm\inc\c\stddef.h \
+  F:\IAR\arm\inc\c\ycheck.h F:\IAR\arm\inc\c\yvals.h \
+  F:\IAR\arm\inc\c\DLib_Defaults.h F:\IAR\arm\inc\c\DLib_Config_Normal.h \
+  F:\IAR\arm\inc\c\DLib_Product.h F:\IAR\arm\inc\c\ysizet.h \
+  F:\IAR\arm\inc\cpp\limits F:\IAR\arm\inc\cpp\cfloat \
+  F:\IAR\arm\inc\c\float.h F:\IAR\arm\inc\cpp\climits \
+  F:\IAR\arm\inc\c\limits.h F:\IAR\arm\inc\cpp\cmath \
+  F:\IAR\arm\inc\c\math.h F:\IAR\arm\inc\c\DLib_float_setup.h \
+  F:\IAR\arm\inc\c\xtgmath.h F:\IAR\arm\inc\cpp\xtr1common \
+  F:\IAR\arm\inc\cpp\cstdlib F:\IAR\arm\inc\c\stdlib.h \
+  F:\IAR\arm\inc\c\DLib_Product_stdlib.h F:\IAR\arm\inc\cpp\cwchar \
+  F:\IAR\arm\inc\c\wchar.h F:\IAR\arm\inc\cpp\xstddef \
+  F:\IAR\arm\inc\c\xstddef0 F:\IAR\arm\inc\cpp\initializer_list \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\fieldvaluebase.hpp \
+  F:\IAR\arm\inc\cpp\type_traits \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\accessmode.hpp \
+  F:\Github\Kolodiy\3Project\Common\susudefs.hpp \
+  F:\IAR\arm\inc\cpp\algorithm F:\IAR\arm\inc\cpp\xmemory \
+  F:\IAR\arm\inc\cpp\xmemory0 F:\IAR\arm\inc\cpp\cstdint \
+  F:\IAR\arm\inc\c\stdint.h F:\IAR\arm\inc\cpp\new \
+  F:\IAR\arm\inc\cpp\exception F:\IAR\arm\inc\cpp\xxexception \
+  F:\IAR\arm\inc\c\xmemnew F:\IAR\arm\inc\cpp\xutility \
+  F:\IAR\arm\inc\cpp\utility F:\IAR\arm\inc\cpp\iosfwd \
+  F:\IAR\arm\inc\cpp\cstdio F:\IAR\arm\inc\c\stdio.h \
+  F:\IAR\arm\inc\cpp\cstring F:\IAR\arm\inc\c\string.h \
+  F:\IAR\arm\inc\c\DLib_Product_string.h F:\IAR\arm\inc\c\xatomic.h \
+  F:\IAR\arm\inc\cpp\cassert F:\IAR\arm\inc\c\assert.h \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\registerfield.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\registerbase.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\registertype.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\register.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\fieldvalue.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\accessmode.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\STM32F411\gpiocregisters.hpp \
+  F:\Github\Kolodiy\3Project\AbstractHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp
