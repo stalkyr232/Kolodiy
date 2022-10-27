@@ -1,0 +1,237 @@
+###############################################################################
+#
+# IAR ELF Linker V9.30.1.335/W64 for ARM                  27/Oct/2022  22:20:47
+# Copyright 2007-2022 IAR Systems AB.
+#
+#    Output file  =  F:\Github\Kolodiy\5 Otchet\Debug\Exe\258g.out
+#    Map file     =  F:\Github\Kolodiy\5 Otchet\Debug\List\258g.map
+#    Command line =
+#        -f "F:\Github\Kolodiy\5 Otchet\Debug\Exe\258g.out.rsp"
+#        ("F:\Github\Kolodiy\5 Otchet\Debug\Obj\main.o" --no_out_extension -o
+#        "F:\Github\Kolodiy\5 Otchet\Debug\Exe\258g.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "F:\Github\Kolodiy\5 Otchet\Debug\List\258g.map" --config
+#        F:\IAR\arm/config/linker/ST/stm32f411xC.icf --semihosting --entry
+#        __iar_program_start --vfe --text_out locale --cpu=Cortex-M4
+#        --fpu=VFPv4_sp)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor        = *
+__CPP_Exceptions = Disabled
+__CPP_Language   = C++14
+__CPP_Library    = libc++
+__CPP_Runtime    = 1
+__SystemLibrary  = DLib
+__dlib_version   = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because --advanced_heap
+was not specified and the application did not appear to
+be primarily optimized for speed.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x803'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'ffff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                        0x40
+  .intvec            ro code   0x800'0000    0x40  vector_table_M.o [4]
+                             - 0x800'0040    0x40
+
+"P1":                                       0x204
+  .text              ro code   0x800'0040    0x54  main.o [1]
+  .text              ro code   0x800'0094    0x14  main.o [1]
+  .text              ro code   0x800'00a8    0x18  main.o [1]
+  .text              ro code   0x800'00c0    0x14  main.o [1]
+  .text              ro code   0x800'00d4    0x1c  main.o [1]
+  .text              ro code   0x800'00f0    0x10  main.o [1]
+  .text              ro code   0x800'0100    0x14  main.o [1]
+  .text              ro code   0x800'0114    0x14  main.o [1]
+  .text              ro code   0x800'0128    0x14  main.o [1]
+  .text              ro code   0x800'013c    0x10  main.o [1]
+  .text              ro code   0x800'014c    0x2a  copy_init3.o [4]
+  .text              ro code   0x800'0176     0x2  vectortrap_M.o [4]
+  .text              ro code   0x800'0178    0x28  data_init.o [4]
+  .text              ro code   0x800'01a0    0x22  fpinit_M.o [3]
+  .iar.init_table    const     0x800'01c4    0x14  - Linker created -
+  .rodata            const     0x800'01d8     0x1  unwind_debug.o [5]
+  .text              ro code   0x800'01dc    0x1e  cmain.o [4]
+  .text              ro code   0x800'01fa     0x4  low_level_init.o [2]
+  .text              ro code   0x800'01fe     0x4  exit.o [2]
+  .text              ro code   0x800'0204     0xa  cexit.o [4]
+  .text              ro code   0x800'0210    0x14  exit.o [5]
+  .text              ro code   0x800'0224    0x1c  cstartup_M.o [4]
+  Initializer bytes  const     0x800'0240     0x4  <for P2-1>
+  .rodata            const     0x800'0244     0x0  copy_init3.o [4]
+                             - 0x800'0244   0x204
+
+"P2", part 1 of 2:                            0x4
+  P2-1                        0x2000'0000     0x4  <Init block>
+    .data            inited   0x2000'0000     0x4  main.o [1]
+                            - 0x2000'0004     0x4
+
+"P2", part 2 of 2:                         0x2000
+  CSTACK                      0x2000'0008  0x2000  <Block>
+    CSTACK           uninit   0x2000'0008  0x2000  <Block tail>
+                            - 0x2000'2008  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'0244   0x803'ffff  0x3'fdbc
+  0x2000'0004  0x2000'0007       0x4
+  0x2000'2008  0x2001'ffff  0x1'dff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+           0x800'0240   0x4
+    1 destination range, total size 0x4:
+          0x2000'0000   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+F:\Github\Kolodiy\5 Otchet\Debug\Obj: [1]
+    main.o                268        4        4
+    -------------------------------------------
+    Total:                268        4        4
+
+dl7M_tlf.a: [2]
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                  8
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    copy_init3.o           42
+    cstartup_M.o           28
+    data_init.o            40
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    -------------------------------------------
+    Total:                216
+
+shb_l.a: [5]
+    exit.o                 20
+    unwind_debug.o                   1
+    -------------------------------------------
+    Total:                 20        1
+
+    Gaps                    7        2
+    Linker created                  20    8'192
+-----------------------------------------------
+    Grand Total:          553       27    8'196
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base    0x800'01c4         --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'01d8         --   Gb  - Linker created -
+?main                    0x800'01dd        Code  Gb  cmain.o [4]
+BusFault_Handler         0x800'0177        Code  Wk  vectortrap_M.o [4]
+CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008         --   Gb  - Linker created -
+DebugMon_Handler         0x800'0177        Code  Wk  vectortrap_M.o [4]
+HardFault_Handler        0x800'0177        Code  Wk  vectortrap_M.o [4]
+MemManage_Handler        0x800'0177        Code  Wk  vectortrap_M.o [4]
+NMI_Handler              0x800'0177        Code  Wk  vectortrap_M.o [4]
+PendSV_Handler           0x800'0177        Code  Wk  vectortrap_M.o [4]
+Region$$Table$$Base      0x800'01c4         --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'01d8         --   Gb  - Linker created -
+SVC_Handler              0x800'0177        Code  Wk  vectortrap_M.o [4]
+SysTick_Handler          0x800'0177        Code  Wk  vectortrap_M.o [4]
+UsageFault_Handler       0x800'0177        Code  Wk  vectortrap_M.o [4]
+__cmain                  0x800'01dd        Code  Gb  cmain.o [4]
+__exit                   0x800'0211  0x14  Code  Gb  exit.o [5]
+__iar_copy_init3         0x800'014d  0x2a  Code  Gb  copy_init3.o [4]
+__iar_data_init3         0x800'0179  0x28  Code  Gb  data_init.o [4]
+__iar_debug_exceptions   0x800'01d8   0x1  Data  Gb  unwind_debug.o [5]
+__iar_init_vfp           0x800'01a1        Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'0225        Code  Gb  cstartup_M.o [4]
+__low_level_init         0x800'01fb   0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000        Data  Gb  vector_table_M.o [4]
+_call_main               0x800'01e9        Code  Gb  cmain.o [4]
+_exit                    0x800'0205        Code  Gb  cexit.o [4]
+bool FieldValueBase<RCC_CFGR_SWS_Values<RCC::CFGR, (unsigned int)2, (unsigned int)2, ReadMode, RCC::RCCCFGRBase>, RCC::RCCCFGRBase, (unsigned int)1>::IsSet<ReadMode, void>()
+                         0x800'00d5  0x1c  Code  Wk  main.o [1]
+bool FieldValueBase<RCC_CR_HSERDY_Values<RCC::CR, (unsigned int)17, (unsigned int)1, ReadMode, RCC::RCCCRBase>, RCC::RCCCRBase, (unsigned int)0>::IsSet<ReadMode, void>()
+                         0x800'00a9  0x18  Code  Wk  main.o [1]
+delay(int)               0x800'0041  0x12  Code  Gb  main.o [1]
+exit                     0x800'01ff   0x4  Code  Gb  exit.o [2]
+main                     0x800'0053  0x3e  Code  Gb  main.o [1]
+void FieldValueBase<GPIOC_MODER_MODER15_Values<GPIOC::MODER, (unsigned int)18, (unsigned int)2, ReadWriteMode, GPIOC::GPIOCMODERBase>, GPIOC::GPIOCMODERBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0115  0x14  Code  Wk  main.o [1]
+void FieldValueBase<GPIOC_ODR_ODR9_Values<GPIOC::ODR, (unsigned int)9, (unsigned int)1, ReadWriteMode, GPIOC::GPIOCODRBase>, GPIOC::GPIOCODRBase, (unsigned int)0>::Set<ReadWriteMode, void>()
+                         0x800'013d  0x10  Code  Wk  main.o [1]
+void FieldValueBase<GPIOC_ODR_ODR9_Values<GPIOC::ODR, (unsigned int)9, (unsigned int)1, ReadWriteMode, GPIOC::GPIOCODRBase>, GPIOC::GPIOCODRBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0129  0x14  Code  Wk  main.o [1]
+void FieldValueBase<RCC_AHB1ENR_GPIOCEN_Values<RCC::AHB1ENR, (unsigned int)2, (unsigned int)1, ReadWriteMode, RCC::RCCAHB1ENRBase>, RCC::RCCAHB1ENRBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0101  0x14  Code  Wk  main.o [1]
+void FieldValueBase<RCC_CFGR_SW_Values<RCC::CFGR, (unsigned int)0, (unsigned int)2, ReadWriteMode, RCC::RCCCFGRBase>, RCC::RCCCFGRBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'00c1  0x14  Code  Wk  main.o [1]
+void FieldValueBase<RCC_CR_HSEON_Values<RCC::CR, (unsigned int)16, (unsigned int)1, ReadWriteMode, RCC::RCCCRBase>, RCC::RCCCRBase, (unsigned int)1>::Set<ReadWriteMode, void>()
+                         0x800'0095  0x14  Code  Wk  main.o [1]
+void FieldValueBase<RCC_CR_HSION_Values<RCC::CR, (unsigned int)0, (unsigned int)1, ReadWriteMode, RCC::RCCCRBase>, RCC::RCCCRBase, (unsigned int)0>::Set<ReadWriteMode, void>()
+                         0x800'00f1  0x10  Code  Wk  main.o [1]
+zaderzka                0x2000'0000   0x4  Data  Gb  main.o [1]
+
+
+[1] = F:\Github\Kolodiy\5 Otchet\Debug\Obj
+[2] = dl7M_tlf.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+    553 bytes of readonly  code memory
+     27 bytes of readonly  data memory
+  8'196 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
