@@ -15,6 +15,11 @@ void Delay(int zaderjka)
 //Главная функция
 int main()
 {
+ 
+  RCC::CR::HSEON::Off::Set();
+
+   
+}
   //Подать тактирование на порт С
   RCC::AHB1ENR::GPIOCEN::Enable::Set();
   
