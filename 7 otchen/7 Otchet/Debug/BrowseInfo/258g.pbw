@@ -1,0 +1,1031 @@
+[
+  {
+    "ID": "c:@F@Delay#I#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay(int)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.cpp@137@F@Delay#I#@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "12",
+      "line": "5",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.cpp@199@F@Delay#I#@j",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "j",
+    "location": {
+      "column": "18",
+      "line": "8",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "15",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.cpp@756@F@main#@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "11",
+      "line": "25",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:rccregisters.hpp@371@macro@RCCREGISTERS_HPP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCCREGISTERS_HPP",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+    },
+    "name": "RCCREGISTERS_HPP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@RCC",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "RCC",
+    "location": {
+      "column": "8",
+      "line": "18",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+    },
+    "members": [
+      {
+        "ID": "c:@S@RCC@S@RCCCRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCCRBase",
+        "location": {
+          "column": "10",
+          "line": "20",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCCRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@CR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "CR",
+        "location": {
+          "column": "10",
+          "line": "22",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "CR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCPLLCFGRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCPLLCFGRBase",
+        "location": {
+          "column": "10",
+          "line": "42",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCPLLCFGRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@PLLCFGR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "PLLCFGR",
+        "location": {
+          "column": "10",
+          "line": "44",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "PLLCFGR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCCFGRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCCFGRBase",
+        "location": {
+          "column": "10",
+          "line": "57",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCCFGRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@CFGR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "CFGR",
+        "location": {
+          "column": "10",
+          "line": "59",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "CFGR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCCIRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCCIRBase",
+        "location": {
+          "column": "10",
+          "line": "78",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCCIRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@CIR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "CIR",
+        "location": {
+          "column": "10",
+          "line": "80",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "CIR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAHB1RSTRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAHB1RSTRBase",
+        "location": {
+          "column": "10",
+          "line": "108",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAHB1RSTRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@AHB1RSTR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AHB1RSTR",
+        "location": {
+          "column": "10",
+          "line": "110",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "AHB1RSTR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAHB2RSTRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAHB2RSTRBase",
+        "location": {
+          "column": "10",
+          "line": "127",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAHB2RSTRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@AHB2RSTR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AHB2RSTR",
+        "location": {
+          "column": "10",
+          "line": "129",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "AHB2RSTR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAPB1RSTRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAPB1RSTRBase",
+        "location": {
+          "column": "10",
+          "line": "138",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAPB1RSTRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@APB1RSTR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "APB1RSTR",
+        "location": {
+          "column": "10",
+          "line": "140",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "APB1RSTR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAPB2RSTRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAPB2RSTRBase",
+        "location": {
+          "column": "10",
+          "line": "160",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAPB2RSTRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@APB2RSTR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "APB2RSTR",
+        "location": {
+          "column": "10",
+          "line": "162",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "APB2RSTR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAHB1ENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAHB1ENRBase",
+        "location": {
+          "column": "10",
+          "line": "180",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAHB1ENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@AHB1ENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AHB1ENR",
+        "location": {
+          "column": "10",
+          "line": "182",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "AHB1ENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAHB2ENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAHB2ENRBase",
+        "location": {
+          "column": "10",
+          "line": "199",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAHB2ENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@AHB2ENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AHB2ENR",
+        "location": {
+          "column": "10",
+          "line": "201",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "AHB2ENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAPB1ENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAPB1ENRBase",
+        "location": {
+          "column": "10",
+          "line": "210",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAPB1ENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@APB1ENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "APB1ENR",
+        "location": {
+          "column": "10",
+          "line": "212",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "APB1ENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAPB2ENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAPB2ENRBase",
+        "location": {
+          "column": "10",
+          "line": "232",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAPB2ENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@APB2ENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "APB2ENR",
+        "location": {
+          "column": "10",
+          "line": "234",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "APB2ENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAHB1LPENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAHB1LPENRBase",
+        "location": {
+          "column": "10",
+          "line": "253",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAHB1LPENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@AHB1LPENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AHB1LPENR",
+        "location": {
+          "column": "10",
+          "line": "255",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "AHB1LPENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAHB2LPENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAHB2LPENRBase",
+        "location": {
+          "column": "10",
+          "line": "274",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAHB2LPENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@AHB2LPENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AHB2LPENR",
+        "location": {
+          "column": "10",
+          "line": "276",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "AHB2LPENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAPB1LPENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAPB1LPENRBase",
+        "location": {
+          "column": "10",
+          "line": "285",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAPB1LPENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@APB1LPENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "APB1LPENR",
+        "location": {
+          "column": "10",
+          "line": "287",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "APB1LPENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCAPB2LPENRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCAPB2LPENRBase",
+        "location": {
+          "column": "10",
+          "line": "307",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCAPB2LPENRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@APB2LPENR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "APB2LPENR",
+        "location": {
+          "column": "10",
+          "line": "309",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "APB2LPENR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCBDCRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCBDCRBase",
+        "location": {
+          "column": "10",
+          "line": "328",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCBDCRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@BDCR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "BDCR",
+        "location": {
+          "column": "10",
+          "line": "330",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "BDCR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCCSRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCCSRBase",
+        "location": {
+          "column": "10",
+          "line": "344",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCCSRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@CSR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "CSR",
+        "location": {
+          "column": "10",
+          "line": "346",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "CSR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCSSCGRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCSSCGRBase",
+        "location": {
+          "column": "10",
+          "line": "364",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCSSCGRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@SSCGR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "SSCGR",
+        "location": {
+          "column": "10",
+          "line": "366",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "SSCGR",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@RCCPLLI2SCFGRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "RCCPLLI2SCFGRBase",
+        "location": {
+          "column": "10",
+          "line": "378",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "RCCPLLI2SCFGRBase",
+        "origin": "user_include",
+        "scope": "RCC"
+      },
+      {
+        "ID": "c:@S@RCC@S@PLLI2SCFGR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "PLLI2SCFGR",
+        "location": {
+          "column": "10",
+          "line": "380",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\rccregisters.hpp"
+        },
+        "members": [],
+        "name": "PLLI2SCFGR",
+        "origin": "user_include",
+        "scope": "RCC"
+      }
+    ],
+    "name": "RCC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpiocregisters.hpp@372@macro@GPIOCREGISTERS_HPP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOCREGISTERS_HPP",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+    },
+    "name": "GPIOCREGISTERS_HPP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@S@GPIOC",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "GPIOC",
+    "location": {
+      "column": "8",
+      "line": "18",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+    },
+    "members": [
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCMODERBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCMODERBase",
+        "location": {
+          "column": "10",
+          "line": "20",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCMODERBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@MODER",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "MODER",
+        "location": {
+          "column": "10",
+          "line": "22",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "MODER",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCOTYPERBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCOTYPERBase",
+        "location": {
+          "column": "10",
+          "line": "46",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCOTYPERBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@OTYPER",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "OTYPER",
+        "location": {
+          "column": "10",
+          "line": "48",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "OTYPER",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCOSPEEDRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCOSPEEDRBase",
+        "location": {
+          "column": "10",
+          "line": "72",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCOSPEEDRBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@OSPEEDR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "OSPEEDR",
+        "location": {
+          "column": "10",
+          "line": "74",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "OSPEEDR",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCPUPDRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCPUPDRBase",
+        "location": {
+          "column": "10",
+          "line": "98",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCPUPDRBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@PUPDR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "PUPDR",
+        "location": {
+          "column": "10",
+          "line": "100",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "PUPDR",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCIDRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCIDRBase",
+        "location": {
+          "column": "10",
+          "line": "124",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCIDRBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@IDR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "IDR",
+        "location": {
+          "column": "10",
+          "line": "126",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "IDR",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCODRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCODRBase",
+        "location": {
+          "column": "10",
+          "line": "150",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCODRBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@ODR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "ODR",
+        "location": {
+          "column": "10",
+          "line": "152",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "ODR",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCBSRRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCBSRRBase",
+        "location": {
+          "column": "10",
+          "line": "176",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCBSRRBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@BSRR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "BSRR",
+        "location": {
+          "column": "10",
+          "line": "178",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "BSRR",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCLCKRBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCLCKRBase",
+        "location": {
+          "column": "10",
+          "line": "218",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCLCKRBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@LCKR",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "LCKR",
+        "location": {
+          "column": "10",
+          "line": "220",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "LCKR",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCAFRLBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCAFRLBase",
+        "location": {
+          "column": "10",
+          "line": "245",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCAFRLBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@AFRL",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AFRL",
+        "location": {
+          "column": "10",
+          "line": "247",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "AFRL",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@GPIOCAFRHBase",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "GPIOCAFRHBase",
+        "location": {
+          "column": "10",
+          "line": "263",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "members": [],
+        "name": "GPIOCAFRHBase",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      },
+      {
+        "ID": "c:@S@GPIOC@S@AFRH",
+        "What": "Struct",
+        "defdec": "Def",
+        "display": "AFRH",
+        "location": {
+          "column": "10",
+          "line": "265",
+          "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
+        },
+        "name": "AFRH",
+        "origin": "user_include",
+        "scope": "GPIOC"
+      }
+    ],
+    "name": "GPIOC",
+    "origin": "user_include",
+    "scope": null
+  }
+]
