@@ -1,72 +1,4995 @@
 [
   {
-    "ID": "c:@F@Delay#I#",
-    "What": "Function",
+    "ID": "c:rccfieldvalues.hpp@386@macro@RCCENUMS_HPP",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "void Delay(int)",
+    "display": "RCCENUMS_HPP",
     "location": {
-      "column": "6",
-      "line": "3",
-      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+      "column": "9",
+      "line": "11",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
     },
-    "name": "Delay",
-    "origin": "project_file",
+    "name": "RCCENUMS_HPP",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:main.cpp@137@F@Delay#I#@i",
-    "What": "Variable",
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_PLLI2SRDY_Values",
+    "What": "ClassTemplate",
     "defdec": "Def",
-    "display": "i",
+    "display": "RCC_CR_PLLI2SRDY_Values<Reg, offset, size, AccessMode, BaseType>",
     "location": {
-      "column": "12",
-      "line": "5",
-      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+      "column": "8",
+      "line": "16",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
     },
-    "name": "i",
-    "origin": "project_file",
+    "members": [],
+    "name": "RCC_CR_PLLI2SRDY_Values",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:main.cpp@199@F@Delay#I#@j",
-    "What": "Variable",
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_PLLI2SON_Values",
+    "What": "ClassTemplate",
     "defdec": "Def",
-    "display": "j",
+    "display": "RCC_CR_PLLI2SON_Values<Reg, offset, size, AccessMode, BaseType>",
     "location": {
-      "column": "18",
-      "line": "8",
-      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+      "column": "8",
+      "line": "23",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
     },
-    "name": "j",
-    "origin": "project_file",
+    "members": [],
+    "name": "RCC_CR_PLLI2SON_Values",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:@F@main#",
-    "What": "Function",
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_PLLRDY_Values",
+    "What": "ClassTemplate",
     "defdec": "Def",
-    "display": "int main(void)",
+    "display": "RCC_CR_PLLRDY_Values<Reg, offset, size, AccessMode, BaseType>",
     "location": {
-      "column": "5",
-      "line": "15",
-      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+      "column": "8",
+      "line": "30",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
     },
-    "name": "main",
-    "origin": "project_file",
+    "members": [],
+    "name": "RCC_CR_PLLRDY_Values",
+    "origin": "user_include",
     "scope": null
   },
   {
-    "ID": "c:main.cpp@756@F@main#@i",
-    "What": "Variable",
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_PLLON_Values",
+    "What": "ClassTemplate",
     "defdec": "Def",
-    "display": "i",
+    "display": "RCC_CR_PLLON_Values<Reg, offset, size, AccessMode, BaseType>",
     "location": {
-      "column": "11",
+      "column": "8",
+      "line": "37",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_PLLON_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_CSSON_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_CSSON_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "44",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_CSSON_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_HSEBYP_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_HSEBYP_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "51",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_HSEBYP_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_HSERDY_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_HSERDY_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "58",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_HSERDY_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_HSEON_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_HSEON_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "65",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_HSEON_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_HSICAL_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_HSICAL_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "72",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_HSICAL_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_HSITRIM_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_HSITRIM_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "77",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_HSITRIM_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_HSIRDY_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_HSIRDY_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "114",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_HSIRDY_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CR_HSION_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CR_HSION_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "121",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CR_HSION_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_PLLCFGR_PLLQ_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_PLLCFGR_PLLQ_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "128",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_PLLCFGR_PLLQ_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_PLLCFGR_PLLSRC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_PLLCFGR_PLLSRC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "150",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_PLLCFGR_PLLSRC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_PLLCFGR_PLLP_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_PLLCFGR_PLLP_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "157",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_PLLCFGR_PLLP_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_PLLCFGR_PLLN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_PLLCFGR_PLLN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "169",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_PLLCFGR_PLLN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_PLLCFGR_PLLM_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_PLLCFGR_PLLM_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "176",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_PLLCFGR_PLLM_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_MCO2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_MCO2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "182",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_MCO2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_MCO2PRE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_MCO2PRE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "191",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_MCO2PRE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_MCO1PRE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_MCO1PRE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "201",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_MCO1PRE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_I2SSRC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_I2SSRC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "207",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_I2SSRC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_MCO1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_MCO1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "214",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_MCO1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_RTCPRE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_RTCPRE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "223",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_RTCPRE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_PPRE2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_PPRE2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "258",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_PPRE2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_PPRE1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_PPRE1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "268",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_PPRE1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_HPRE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_HPRE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "274",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_HPRE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_SWS_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_SWS_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "289",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_SWS_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CFGR_SW_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CFGR_SW_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "298",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CFGR_SW_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_CSSC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_CSSC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "306",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_CSSC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_PLLI2SRDYC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_PLLI2SRDYC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "312",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_PLLI2SRDYC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_PLLRDYC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_PLLRDYC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "318",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_PLLRDYC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_HSERDYC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_HSERDYC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "324",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_HSERDYC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_HSIRDYC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_HSIRDYC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "330",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_HSIRDYC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_LSERDYC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_LSERDYC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "336",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_LSERDYC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_LSIRDYC_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_LSIRDYC_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "342",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_LSIRDYC_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_PLLI2SRDYIE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_PLLI2SRDYIE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "348",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_PLLI2SRDYIE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_PLLRDYIE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_PLLRDYIE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "355",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_PLLRDYIE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_HSERDYIE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_HSERDYIE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "362",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_HSERDYIE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_HSIRDYIE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_HSIRDYIE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "369",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_HSIRDYIE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_LSERDYIE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_LSERDYIE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "376",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_LSERDYIE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_LSIRDYIE_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_LSIRDYIE_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "383",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_LSIRDYIE_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_CSSF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_CSSF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "390",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_CSSF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_PLLI2SRDYF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_PLLI2SRDYF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "397",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_PLLI2SRDYF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_PLLRDYF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_PLLRDYF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "404",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_PLLRDYF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_HSERDYF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_HSERDYF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "411",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_HSERDYF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_HSIRDYF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_HSIRDYF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "418",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_HSIRDYF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_LSERDYF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_LSERDYF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "425",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_LSERDYF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CIR_LSIRDYF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CIR_LSIRDYF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "432",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CIR_LSIRDYF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_DMA2RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_DMA2RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "439",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_DMA2RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_DMA1RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_DMA1RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "446",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_DMA1RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_CRCRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_CRCRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "453",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_CRCRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_GPIOHRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_GPIOHRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "460",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_GPIOHRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_GPIOERST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_GPIOERST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "467",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_GPIOERST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_GPIODRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_GPIODRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "474",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_GPIODRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_GPIOCRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_GPIOCRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "481",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_GPIOCRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_GPIOBRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_GPIOBRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "488",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_GPIOBRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1RSTR_GPIOARST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1RSTR_GPIOARST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "495",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1RSTR_GPIOARST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB2RSTR_OTGFSRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB2RSTR_OTGFSRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "502",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB2RSTR_OTGFSRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_PWRRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_PWRRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "509",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_PWRRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_I2C3RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_I2C3RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "516",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_I2C3RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_I2C2RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_I2C2RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "523",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_I2C2RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_I2C1RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_I2C1RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "530",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_I2C1RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_UART2RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_UART2RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "537",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_UART2RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_SPI3RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_SPI3RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "544",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_SPI3RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_SPI2RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_SPI2RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "551",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_SPI2RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_WWDGRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_WWDGRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "558",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_WWDGRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_TIM5RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_TIM5RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "565",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_TIM5RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_TIM4RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_TIM4RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "572",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_TIM4RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_TIM3RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_TIM3RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "579",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_TIM3RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1RSTR_TIM2RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1RSTR_TIM2RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "586",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1RSTR_TIM2RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_TIM11RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_TIM11RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "593",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_TIM11RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_TIM10RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_TIM10RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "600",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_TIM10RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_TIM9RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_TIM9RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "607",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_TIM9RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_SYSCFGRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_SYSCFGRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "614",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_SYSCFGRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_SPI1RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_SPI1RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "621",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_SPI1RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_SDIORST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_SDIORST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "628",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_SDIORST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_ADCRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_ADCRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "635",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_ADCRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_USART6RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_USART6RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "642",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_USART6RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_USART1RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_USART1RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "649",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_USART1RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2RSTR_TIM1RST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2RSTR_TIM1RST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "656",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2RSTR_TIM1RST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_DMA2EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_DMA2EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "663",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_DMA2EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_DMA1EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_DMA1EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "670",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_DMA1EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_CRCEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_CRCEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "676",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_CRCEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_GPIOHEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_GPIOHEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "682",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_GPIOHEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_GPIOEEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_GPIOEEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "689",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_GPIOEEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_GPIODEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_GPIODEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "696",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_GPIODEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_GPIOCEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_GPIOCEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "703",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_GPIOCEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_GPIOBEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_GPIOBEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "711",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_GPIOBEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1ENR_GPIOAEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1ENR_GPIOAEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "718",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1ENR_GPIOAEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB2ENR_OTGFSEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB2ENR_OTGFSEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "725",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB2ENR_OTGFSEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_PWREN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_PWREN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "731",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_PWREN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_I2C3EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_I2C3EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "737",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_I2C3EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_I2C2EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_I2C2EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "743",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_I2C2EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_I2C1EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_I2C1EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "749",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_I2C1EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_USART2EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_USART2EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "755",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_USART2EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_SPI3EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_SPI3EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "760",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_SPI3EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_SPI2EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_SPI2EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "765",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_SPI2EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_WWDGEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_WWDGEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "770",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_WWDGEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_TIM5EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_TIM5EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "776",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_TIM5EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_TIM4EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_TIM4EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "781",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_TIM4EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_TIM3EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_TIM3EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "786",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_TIM3EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1ENR_TIM2EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1ENR_TIM2EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "791",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1ENR_TIM2EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_TIM1EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_TIM1EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "796",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_TIM1EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_USART1EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_USART1EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "801",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_USART1EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_USART6EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_USART6EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "806",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_USART6EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_ADC1EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_ADC1EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "811",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_ADC1EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_SDIOEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_SDIOEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "816",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_SDIOEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_SPI1EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_SPI1EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "821",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_SPI1EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_SPI4EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_SPI4EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "826",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_SPI4EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_SYSCFGEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_SYSCFGEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "831",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_SYSCFGEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_TIM9EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_TIM9EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "836",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_TIM9EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_TIM10EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_TIM10EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "841",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_TIM10EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2ENR_TIM11EN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2ENR_TIM11EN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "846",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2ENR_TIM11EN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_DMA2LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_DMA2LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "851",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_DMA2LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_DMA1LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_DMA1LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "856",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_DMA1LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_SRAM1LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_SRAM1LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "861",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_SRAM1LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_FLITFLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_FLITFLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "866",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_FLITFLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_CRCLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_CRCLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "871",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_CRCLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_GPIOHLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_GPIOHLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "876",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_GPIOHLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_GPIOELPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_GPIOELPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "881",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_GPIOELPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_GPIODLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_GPIODLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "886",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_GPIODLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_GPIOCLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_GPIOCLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "891",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_GPIOCLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_GPIOBLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_GPIOBLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "896",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_GPIOBLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB1LPENR_GPIOALPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB1LPENR_GPIOALPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "901",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB1LPENR_GPIOALPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_AHB2LPENR_OTGFSLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_AHB2LPENR_OTGFSLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "906",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_AHB2LPENR_OTGFSLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_PWRLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_PWRLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "911",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_PWRLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_I2C3LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_I2C3LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "916",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_I2C3LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_I2C2LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_I2C2LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "921",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_I2C2LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_I2C1LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_I2C1LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "926",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_I2C1LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_USART2LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_USART2LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "931",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_USART2LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_SPI3LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_SPI3LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "936",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_SPI3LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_SPI2LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_SPI2LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "941",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_SPI2LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_WWDGLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_WWDGLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "946",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_WWDGLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_TIM5LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_TIM5LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "951",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_TIM5LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_TIM4LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_TIM4LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "956",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_TIM4LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_TIM3LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_TIM3LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "961",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_TIM3LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB1LPENR_TIM2LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB1LPENR_TIM2LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "966",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB1LPENR_TIM2LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_TIM1LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_TIM1LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "971",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_TIM1LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_USART1LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_USART1LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "976",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_USART1LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_USART6LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_USART6LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "981",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_USART6LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_ADC1LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_ADC1LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "986",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_ADC1LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_SDIOLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_SDIOLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "991",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_SDIOLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_SPI1LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_SPI1LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "996",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_SPI1LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_SPI4LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_SPI4LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1001",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_SPI4LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_SYSCFGLPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_SYSCFGLPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1006",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_SYSCFGLPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_TIM9LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_TIM9LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1011",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_TIM9LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_TIM10LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_TIM10LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1016",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_TIM10LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_APB2LPENR_TIM11LPEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_APB2LPENR_TIM11LPEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1021",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_APB2LPENR_TIM11LPEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_BDCR_BDRST_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_BDCR_BDRST_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1026",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_BDCR_BDRST_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_BDCR_RTCEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_BDCR_RTCEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1033",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_BDCR_RTCEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_BDCR_RTCSEL_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_BDCR_RTCSEL_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1040",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_BDCR_RTCSEL_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_BDCR_LSEBYP_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_BDCR_LSEBYP_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1049",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_BDCR_LSEBYP_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_BDCR_LSERDY_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_BDCR_LSERDY_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1056",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_BDCR_LSERDY_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_BDCR_LSEON_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_BDCR_LSEON_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1063",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_BDCR_LSEON_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_LPWRRSTF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_LPWRRSTF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1070",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_LPWRRSTF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_WWDGRSTF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_WWDGRSTF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1077",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_WWDGRSTF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_WDGRSTF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_WDGRSTF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1084",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_WDGRSTF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_SFTRSTF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_SFTRSTF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1091",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_SFTRSTF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_PORRSTF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_PORRSTF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1098",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_PORRSTF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_PADRSTF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_PADRSTF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1105",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_PADRSTF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_BORRSTF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_BORRSTF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1112",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_BORRSTF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_RMVF_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_RMVF_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1119",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_RMVF_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_LSIRDY_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_LSIRDY_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1125",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_LSIRDY_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_CSR_LSION_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_CSR_LSION_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1132",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_CSR_LSION_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_SSCGR_SSCGEN_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_SSCGR_SSCGEN_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1139",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_SSCGR_SSCGEN_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_SSCGR_SPREADSEL_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_SSCGR_SPREADSEL_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1146",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_SSCGR_SPREADSEL_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_SSCGR_INCSTEP_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_SSCGR_INCSTEP_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1153",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_SSCGR_INCSTEP_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_SSCGR_MODPER_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_SSCGR_MODPER_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1158",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_SSCGR_MODPER_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_PLLI2SCFGR_PLLI2SRx_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_PLLI2SCFGR_PLLI2SRx_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1163",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_PLLI2SCFGR_PLLI2SRx_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@RCC_PLLI2SCFGR_PLLI2SNx_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "RCC_PLLI2SCFGR_PLLI2SNx_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1175",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\rccfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "RCC_PLLI2SCFGR_PLLI2SNx_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:gpiocfieldvalues.hpp@392@macro@GPIOCENUMS_HPP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOCENUMS_HPP",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "name": "GPIOCENUMS_HPP",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "16",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
       "line": "25",
-      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
     },
-    "name": "i",
-    "origin": "project_file",
+    "members": [],
+    "name": "GPIOC_MODER_MODER14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "30",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "35",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "40",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "45",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "50",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "55",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "60",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "65",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "70",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "75",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "80",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "85",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "90",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_MODER_MODER0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_MODER_MODER0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "95",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_MODER_MODER0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "100",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "107",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "114",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "121",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "128",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "135",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "142",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "149",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "156",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "163",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "170",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "177",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "184",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "191",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "198",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OTYPER_OT0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OTYPER_OT0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "205",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OTYPER_OT0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "212",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "221",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "227",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "233",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "239",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "245",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "251",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "257",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "263",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "269",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "275",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "281",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "287",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "293",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "299",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_OSPEEDR_OSPEEDR0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_OSPEEDR_OSPEEDR0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "305",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_OSPEEDR_OSPEEDR0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "311",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "319",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "325",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "331",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "337",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "343",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "349",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "355",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "361",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "367",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "373",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "379",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "385",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "391",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "397",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_PUPDR_PUPDR0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_PUPDR_PUPDR0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "403",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_PUPDR_PUPDR0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "409",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "416",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "423",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "430",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "437",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "444",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "451",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "458",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "465",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "472",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "479",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "486",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "493",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "500",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "507",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_IDR_IDR0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_IDR_IDR0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "514",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_IDR_IDR0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "521",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "528",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "535",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "542",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "549",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "556",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "563",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "570",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "577",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "584",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "591",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "598",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "605",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "612",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "619",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_ODR_ODR0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_ODR_ODR0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "626",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_ODR_ODR0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "633",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "639",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "645",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "651",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "657",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "663",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "669",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "675",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "681",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "687",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "693",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "699",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "705",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "711",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "717",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BR0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BR0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "723",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BR0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "729",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "735",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "741",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "747",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "753",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "759",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "765",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "771",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "777",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "783",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "789",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "795",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "801",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "807",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "813",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_BSRR_BS0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_BSRR_BS0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "819",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_BSRR_BS0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCKK_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCKK_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "825",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCKK_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "832",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "839",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "845",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "851",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "857",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "863",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "869",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "875",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK8_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "881",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "887",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "893",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "899",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "905",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "911",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "917",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_LCKR_LCK0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_LCKR_LCK0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "923",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_LCKR_LCK0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL7_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL7_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "929",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL7_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL6_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL6_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "950",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL6_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL5_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL5_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "956",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL5_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL4_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL4_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "962",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL4_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL3_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL3_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "968",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL3_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL2_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL2_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "974",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL2_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL1_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL1_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "980",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL1_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRL_AFRL0_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRL_AFRL0_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "986",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRL_AFRL0_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH15_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH15_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "992",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH15_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH14_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH14_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "998",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH14_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH13_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH13_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1004",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH13_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH12_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH12_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1010",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH12_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH11_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH11_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1016",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH11_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH10_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH10_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1022",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH10_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH9_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH9_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1028",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH9_Values",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@ST>5#T#NI#NI#T#T@GPIOC_AFRH_AFRH8_Values",
+    "What": "ClassTemplate",
+    "defdec": "Def",
+    "display": "GPIOC_AFRH_AFRH8_Values<Reg, offset, size, AccessMode, BaseType>",
+    "location": {
+      "column": "8",
+      "line": "1034",
+      "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\FieldValues\\gpiocfieldvalues.hpp"
+    },
+    "members": [],
+    "name": "GPIOC_AFRH_AFRH8_Values",
+    "origin": "user_include",
     "scope": null
   },
   {
@@ -1019,6 +5942,7 @@
           "line": "265",
           "path": "F:\\Github\\CortexLib\\AbstractHardware\\Registers\\STM32F411\\gpiocregisters.hpp"
         },
+        "members": [],
         "name": "AFRH",
         "origin": "user_include",
         "scope": "GPIOC"
@@ -1026,6 +5950,76 @@
     ],
     "name": "GPIOC",
     "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@Delay#I#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void Delay(int)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "Delay",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.cpp@137@F@Delay#I#@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "12",
+      "line": "5",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.cpp@199@F@Delay#I#@j",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "j",
+    "location": {
+      "column": "18",
+      "line": "8",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "j",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main#",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "15",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.cpp@756@F@main#@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "11",
+      "line": "25",
+      "path": "F:\\Github\\Kolodiy\\7 otchen\\7 Otchet\\main.cpp"
+    },
+    "name": "i",
+    "origin": "project_file",
     "scope": null
   }
 ]

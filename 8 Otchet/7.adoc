@@ -1,0 +1,154 @@
+---
+title: Отчёт 7
+---
+
+= 3 режима
+
+[text-right]
+--
+ Выполнил студент группы КЭ-413
+ Ульданов Данил
+--
+
+[source, c++]
+--
+#include "rccregisters.hpp" // Для модуля RCC
+#include "gpiocregisters.hpp" // регистр для порта с
+#include "gpioaregisters.hpp"
+//Функция задержки
+void Delay(int zaderjka)
+{
+  for (int i=0; i<zaderjka;++i)
+  {
+    //Тут что-то написано
+    volatile int j = i; // без оптимизации, выполняет код просто так как он есть, для того чтобы работала задержка
+    // если включить оптимизацию на полную и закоментить volatile, то светодиоды оба горят
+    // с volatile моргают на
+  }
+
+}
+
+ void Elka()
+ {
+
+      GPIOC::ODR::ODR5::High::Set(); // загорается светодиод
+      Delay(2000000);  // Вызов функции задержки
+      GPIOC::ODR::ODR8::High::Set(); // загорается светодиод
+      Delay(2000000);  // Вызов функции задержки
+      GPIOC::ODR::ODR9::High::Set();  // светодиод тухнет
+      Delay(2000000);  // Вызов функции задержки
+      GPIOA::ODR::ODR5::High::Set();
+      Delay(2000000);  // Вызов функции задержки
+
+      GPIOC::ODR::ODR5::Low::Set();  // светодиод тухнет
+      Delay(2000000);  // Вызов функции задержки
+      GPIOC::ODR::ODR8::Low::Set();  // светодиод тухнет
+      Delay(2000000);  // Вызов функции задержки
+      GPIOC::ODR::ODR9::Low::Set();  // светодиод тухнет
+      Delay(2000000);  // Вызов функции задержки
+      GPIOA::ODR::ODR5::Low::Set() ;
+      Delay(2000000);  // Вызов функции задержки
+
+ }
+
+void Migalka()
+{
+
+      GPIOC::ODR::ODR5::High::Set(); // загорается светодиод
+      GPIOC::ODR::ODR8::High::Set(); // загорается светодиод
+      GPIOC::ODR::ODR9::High::Set();  // светодиод тухнет
+      GPIOA::ODR::ODR5::High::Set();
+      Delay(2000000);  // Вызов функции задержки
+
+      GPIOC::ODR::ODR5::Low::Set();  // светодиод тухнет
+      GPIOC::ODR::ODR8::Low::Set();  // светодиод тухнет
+      GPIOC::ODR::ODR9::Low::Set();  // светодиод тухнет
+      GPIOA::ODR::ODR5::Low::Set() ;
+      Delay(2000000);  // Вызов функции задержки
+
+
+}
+
+void Chess()
+{
+  GPIOC::ODR::ODR5::High::Set(); // загорается светодиод
+  GPIOC::ODR::ODR9::High::Set();
+  Delay(2000000);  // Вызов функции задержки
+  GPIOC::ODR::ODR5::Low::Set(); // загорается светодиод
+  GPIOC::ODR::ODR9::Low::Set();
+  Delay(2000000);  // Вызов функции задержки
+  GPIOC::ODR::ODR8::High::Set();
+  GPIOA::ODR::ODR5::High::Set();
+  Delay(2000000);  // Вызов функции задержки
+  GPIOC::ODR::ODR8::Low::Set();
+  GPIOA::ODR::ODR5::Low::Set();
+  Delay(2000000);  // Вызов функции задержки
+
+
+}
+
+//Главная функция
+int main()
+{
+  //Подать тактирование на порт С
+  RCC::AHB1ENR::GPIOCEN::Enable::Set();
+  RCC::AHB1ENR::GPIOAEN::Enable::Set();
+  //Порт в режим вывода перевести c.5 c.8 c.9
+  GPIOA::MODER::MODER5::Output::Set();
+  GPIOC::MODER::MODER5::Output::Set();
+  GPIOC::MODER::MODER8::Output::Set();
+  GPIOC::MODER::MODER9::Output::Set();
+  GPIOC::MODER::MODER13::Input::Set();
+
+  // Зажечь светодиоды
+  uint8_t i = 0;
+  uint8_t SS  = 0;
+  bool flag =1;
+
+
+  for(;;)
+  {
+   if(GPIOC::IDR::IDR13::Low::IsSet()) // Если кнопка не нажата
+   {
+     while (GPIOC::IDR::IDR13::Low::IsSet()) // Если в како-то момент времени кнопка нажалась, то режим меняем
+     {
+     }
+     GPIOC::ODR::Write(0x0000); // сброс битов на светодиодах в 0
+     if (SS<2)  // Всего 3 режима
+     {
+       SS++;
+     }
+     else
+     {
+       SS=0;
+     }
+   }
+
+
+
+
+
+switch  (SS)
+{
+case 0:
+ Migalka();
+  break;
+
+
+
+  case 1:
+     Chess();
+
+  break;
+
+   case 2:
+     Elka();
+
+  break;
+   }
+}}
+
+--
+== Вывод
+Я научился делать гирлянду.
+

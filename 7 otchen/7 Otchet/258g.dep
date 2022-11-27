@@ -6,22 +6,22 @@
         <name>Debug</name>
         <outputs>
             <file>$PROJ_DIR$\main.cpp</file>
-            <file>$PROJ_DIR$\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\rccregisters.hpp</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
             <file>$PROJ_DIR$\Debug\Exe\258g.out</file>
+            <file>$PROJ_DIR$\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\rccregisters.hpp</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\main.cpp</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 2</file>
+                    <file> 1</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1</file>
+                    <file> 3</file>
                 </tool>
             </inputs>
         </file>
@@ -30,7 +30,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 3</file>
+                    <file> 2</file>
                 </tool>
             </outputs>
         </file>

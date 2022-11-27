@@ -24,18 +24,18 @@ rule PDBLINK
 
 
 #Build steps
-build F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
-  xclcommand = -source_file F$:\Github\Kolodiy\4Otchet\main.cpp -xcl_file F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.xcl -macro_file F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.tmp -icc_path F$:\IAR\arm\bin\iccarm.exe
-  flags = F$:\Github\Kolodiy\4Otchet\main.cpp -o F$:\Github\Kolodiy\4Otchet\Debug\Obj\ --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --libc++ -I F$:\Github\Kolodiy\4Otchet\..\..\CortexLib\AbstractHardware\Registers\ -I F$:\Github\Kolodiy\4Otchet\..\..\CortexLib\AbstractHardware\Registers\STM32F411\ -I F$:\Github\Kolodiy\4Otchet\..\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\ -I F$:\Github\Kolodiy\4Otchet\..\..\CortexLib\AbstractHardware\ -I F$:\Github\Kolodiy\4Otchet\..\..\CortexLib\Common\ -Ol --c++ --no_exceptions --no_rtti --predef_macros F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.tmp
-  rspfile_name = F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.xcl.rsp
+build F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.xcl : COMPILER_XCL 
+  xclcommand = -source_file "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\main.cpp" -xcl_file "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.xcl" -macro_file "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.tmp" -icc_path F$:\IAR\arm\bin\iccarm.exe
+  flags = "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\main.cpp" -o "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\Obj\\" --no_cse --no_unroll --no_inline --no_code_motion --no_tbaa --no_clustering --no_scheduling --debug --endian=little --cpu=Cortex-M4 -e --fpu=VFPv4_sp --libc++ -I "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\..\..\CortexLib\AbstractHardware\Registers\\" -I "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\..\..\CortexLib\AbstractHardware\Registers\STM32F411\\" -I "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\..\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\\" -I "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\..\..\CortexLib\AbstractHardware\\" -I "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\..\..\CortexLib\Common\\" -Ol --c++ --no_exceptions --no_rtti --predef_macros "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.tmp"
+  rspfile_name = F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.xcl.rsp
 
-build F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.pbi : INDEXER F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.xcl |  $
-F$:\Github\Kolodiy\4Otchet\main.cpp
-  flags = -out=F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.pbi -f F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.xcl
+build F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.pbi : INDEXER F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.xcl |  $
+F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\main.cpp
+  flags = "-out=F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.pbi" -f "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.xcl"
 
-build F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\258g.pbw : MAKEBROWSE F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\258g.pbd
-  flags = F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\258g.pbd -output F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\258g.pbw
+build F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\258g.pbw : MAKEBROWSE F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\258g.pbd
+  flags = "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\258g.pbd" -output "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\258g.pbw"
 
-build F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\258g.pbd : PDBLINK F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.pbi
-  flags = -M F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\258g.pbd F$:\Github\Kolodiy\4Otchet\Debug\BrowseInfo\main.pbi
+build F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\258g.pbd : PDBLINK F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.pbi
+  flags = -M "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\258g.pbd" "F$:\Github\Kolodiy\4Otchet$ —$ копия$ (2)\Debug\BrowseInfo\main.pbi"
 

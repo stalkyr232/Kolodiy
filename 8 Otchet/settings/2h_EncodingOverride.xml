@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>F:\Github\Kolodiy\4Otchet\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\5 Otchet\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\8 Otchet\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+</userOverrides>

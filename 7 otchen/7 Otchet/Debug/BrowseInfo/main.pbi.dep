@@ -1,4 +1,6 @@
 F:\Github\Kolodiy\7\ otchen\7\ Otchet\Debug\BrowseInfo\main.pbi: \
   F:\Github\Kolodiy\7\ otchen\7\ Otchet\main.cpp \
   F:\Github\Kolodiy\7\ otchen\7\ Otchet\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\rccregisters.hpp \
-  F:\Github\Kolodiy\7\ otchen\7\ Otchet\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\gpiocregisters.hpp
+  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\rccfieldvalues.hpp \
+  F:\Github\Kolodiy\7\ otchen\7\ Otchet\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\gpiocregisters.hpp \
+  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp

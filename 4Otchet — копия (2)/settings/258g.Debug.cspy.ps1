@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "F:\IAR\common\bin\cspybat" -f "F:\Github\Kolodiy\4Otchet\settings\258g.Debug.general.xcl" --backend -f "F:\Github\Kolodiy\4Otchet\settings\258g.Debug.driver.xcl" 
+& "F:\IAR\common\bin\cspybat" -f "F:\Github\Kolodiy\4Otchet — копия (2)\settings\258g.Debug.general.xcl" --backend -f "F:\Github\Kolodiy\4Otchet — копия (2)\settings\258g.Debug.driver.xcl" 
 }
 else
 {
-& "F:\IAR\common\bin\cspybat" -f "F:\Github\Kolodiy\4Otchet\settings\258g.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\Github\Kolodiy\4Otchet\settings\258g.Debug.driver.xcl" 
+& "F:\IAR\common\bin\cspybat" -f "F:\Github\Kolodiy\4Otchet — копия (2)\settings\258g.Debug.general.xcl" --debug_file=$debugfile --backend -f "F:\Github\Kolodiy\4Otchet — копия (2)\settings\258g.Debug.driver.xcl" 
 }

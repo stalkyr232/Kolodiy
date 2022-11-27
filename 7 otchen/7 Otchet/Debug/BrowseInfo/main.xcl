@@ -23,6 +23,8 @@ F:\Github\Kolodiy\7 otchen\7 Otchet\..\..\CortexLib\Common\
 -I
 F:\Github\Kolodiy\7 otchen\7 Otchet\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\
 -I
+F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
+-I
 F:\IAR\arm\inc\libcpp
 -I
 F:\IAR\arm\inc\c\aarch32
@@ -42,6 +44,8 @@ F:\Github\Kolodiy\CortexLib\AbstractHardware
 F:\Github\Kolodiy\CortexLib\Common
 -I
 F:\Github\CortexLib\AbstractHardware\Registers\STM32F411
+-I
+F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
 -D__CHAR_BITS__=8
 -D__CHAR_BIT__=8
 -D__CHAR_MAX__=0xff
