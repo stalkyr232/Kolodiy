@@ -1,8 +1,9 @@
-F:\Github\Kolodiy\8\ Otchet\Debug\BrowseInfo\Hardware\Pin\Pin.pbi: \
-  F:\Github\Kolodiy\8\ Otchet\Pin.cpp F:\Github\Kolodiy\8\ Otchet\pin.h \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\STM32F411\gpiocregisters.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
+F:\Github\Kolodiy\9\ Otchet\ —\ копия\Debug\BrowseInfo\Hardware\Pin\Pin.pbi: \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\Pin.cpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\pin.h \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\STM32F411\gpiocregisters.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
   F:\IAR\arm\inc\libcpp\cstddef F:\IAR\arm\inc\libcpp\__config \
   F:\IAR\arm\inc\libcpp\__config_site \
   F:\IAR\arm\inc\libcpp\__support\iar\raise.h \
@@ -12,9 +13,9 @@ F:\Github\Kolodiy\8\ Otchet\Debug\BrowseInfo\Hardware\Pin\Pin.pbi: \
   F:\IAR\arm\inc\c\DLib_Product.h F:\IAR\arm\inc\c\ysizet.h \
   F:\IAR\arm\inc\libcpp\__nullptr F:\IAR\arm\inc\libcpp\limits \
   F:\IAR\arm\inc\libcpp\type_traits F:\IAR\arm\inc\libcpp\__undef_macros \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\fieldvaluebase.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\Common\susudefs.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\fieldvaluebase.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\Common\susudefs.hpp \
   F:\IAR\arm\inc\libcpp\algorithm F:\IAR\arm\inc\libcpp\__debug \
   F:\IAR\arm\inc\libcpp\iosfwd F:\IAR\arm\inc\libcpp\wchar.h \
   F:\IAR\arm\inc\libcpp\stddef.h F:\IAR\arm\inc\c\wchar.h \
@@ -219,11 +220,11 @@ F:\Github\Kolodiy\8\ Otchet\Debug\BrowseInfo\Hardware\Pin\Pin.pbi: \
   F:\IAR\arm\inc\libcpp\__algorithm\unique_copy.h \
   F:\IAR\arm\inc\libcpp\__algorithm\unique.h \
   F:\IAR\arm\inc\libcpp\cassert F:\IAR\arm\inc\c\assert.h \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\registerfield.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\registerbase.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\registertype.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\register.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
-  F:\Github\Kolodiy\8\ Otchet\..\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\registerfield.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\registerbase.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\registertype.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\register.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
+  F:\Github\Kolodiy\9\ Otchet\ —\ копия\..\..\CortexLib\AbstractHardware\Registers\accessmode.hpp \
   F:\IAR\arm\inc\libcpp\cinttypes F:\IAR\arm\inc\libcpp\inttypes.h \
   F:\IAR\arm\inc\c\inttypes.h

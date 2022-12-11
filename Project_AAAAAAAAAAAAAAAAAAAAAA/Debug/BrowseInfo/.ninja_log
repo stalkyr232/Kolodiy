@@ -1,0 +1,19 @@
+# ninja log v5
+175	384	6912396320000000	R:/POIP/POIP/Project_8/Debug/BrowseInfo/main.xcl	f9ee7eaa53be85fc
+2	169	6912396310000000	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Components/LED/LED.xcl	e55aed6b5a713784
+10	3405	6916892525164467	R:/POIP/POIP/Project_8/Debug/BrowseInfo/main.pbi	aa2a911c73a184b1
+2	186	6916850030000000	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Components/Button/Button.xcl	4a97d5e4ae7d3ab2
+3684	8307	6916892573631015	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Project_8.pbw	5c70bb67d721431c
+6	120	6912305877016922	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Hardware/Pin/pin.pbi	675411832b4d51be
+3407	3682	6916892527946318	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Project_8.pbd	d3b25e08db260d7e
+390	672	6910875840000000	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Hardware/Pin/pin.xcl	cfd142beb2965dd1
+2	194	6910875840000000	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Components/LED.xcl	3b9205d5774b4a15
+3542	3656	6912315977859092	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Components/LED.pbi	c8275befc7da57f7
+2702	2781	6912396344112439	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Components/LED/LED.pbi	e1750b183a722aed
+2	66	6916888196033000	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Components/Button/Button.pbi	547c90f40c74573a
+6	2589	6916893448252273	R:/POIP/POIP/Project_8/Debug/BrowseInfo/main.pbi	aa2a911c73a184b1
+2591	2856	6916893450894031	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Project_8.pbd	d3b25e08db260d7e
+2858	7485	6916893496662181	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Project_8.pbw	5c70bb67d721431c
+2	2021	6916896621853363	R:/POIP/POIP/Project_8/Debug/BrowseInfo/main.pbi	aa2a911c73a184b1
+2022	2342	6916896625075506	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Project_8.pbd	d3b25e08db260d7e
+2344	7062	6916896671720399	R:/POIP/POIP/Project_8/Debug/BrowseInfo/Project_8.pbw	5c70bb67d721431c

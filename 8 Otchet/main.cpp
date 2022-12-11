@@ -8,8 +8,9 @@
 #include "gpioaregisters.hpp" // регистр для порта a
 
 
-#include "pinconfig.h"
-#include "LED.h" // подключение заголовочного файла
+
+
+
 
 
 #include <iostream>

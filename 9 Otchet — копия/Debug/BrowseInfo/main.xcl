@@ -1,29 +1,47 @@
-"F:\Github\Kolodiy\8 Otchet\main.cpp"
+"F:\Github\Kolodiy\9 Otchet — копия\main.cpp"
 -std=c++17
 -ferror-limit=0
 -fbracket-depth=512
 -funsigned-char
 -MD
 -MF
-F:\Github\Kolodiy\8 Otchet\Debug\BrowseInfo\main.pbi.dep
+F:\Github\Kolodiy\9 Otchet — копия\Debug\BrowseInfo\main.pbi.dep
 -o
-F:\Github\Kolodiy\8 Otchet\Debug\BrowseInfo\main.pbi
+F:\Github\Kolodiy\9 Otchet — копия\Debug\BrowseInfo\main.pbi
 -I
-F:\Github\Kolodiy\8 Otchet
+F:\Github\Kolodiy\9 Otchet — копия
 -I
-F:\Github\Kolodiy\8 Otchet\..\..\CortexLib\AbstractHardware\Registers\
+F:\Github\Kolodiy\9 Otchet — копия\..\..\CortexLib\AbstractHardware\Registers\
 -I
-F:\Github\Kolodiy\8 Otchet\..\..\CortexLib\AbstractHardware\Registers\STM32F411\
+F:\Github\Kolodiy\9 Otchet — копия\..\..\CortexLib\AbstractHardware\Registers\STM32F411\
 -I
-F:\Github\Kolodiy\8 Otchet\..\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+F:\Github\Kolodiy\9 Otchet — копия\..\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
 -I
-F:\Github\Kolodiy\8 Otchet\..\..\CortexLib\AbstractHardware\
+F:\Github\Kolodiy\9 Otchet — копия\..\..\CortexLib\AbstractHardware\
 -I
-F:\Github\Kolodiy\8 Otchet\..\..\CortexLib\Common\
+F:\Github\Kolodiy\9 Otchet — копия\..\..\CortexLib\Common\
 -I
-F:\Github\Kolodiy\8 Otchet\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\
+F:\Github\Kolodiy\9 Otchet — копия\..\..\..\CortexLib\AbstractHardware\Registers\STM32F411\
 -I
-F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
+F:\Github\Kolodiy\9 Otchet — копия\..\..\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Hardware\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Hardware\Pin\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Components\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Components\LED\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Components\Button\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes\AllMode\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes\ChessMode\
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes\TreeMode\
 -I
 F:\IAR\arm\inc\libcpp
 -I
@@ -46,6 +64,24 @@ F:\Github\CortexLib\Common
 F:\CortexLib\AbstractHardware\Registers\STM32F411
 -I
 F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Hardware
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Hardware\Pin
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Components
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Components\LED
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Components\Button
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes\AllMode
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes\ChessMode
+-I
+F:\Github\Kolodiy\9 Otchet — копия\Modes\TreeMode
 -D__CHAR_BITS__=8
 -D__CHAR_BIT__=8
 -D__CHAR_MAX__=0xff
