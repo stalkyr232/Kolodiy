@@ -10,7 +10,7 @@ Button::Button(const IPinReadable& pin): _pin(pin)
   {   
     if( !_pin.IsHigh() )  // Если кнопка не нажата 
     {
-        while (!_pin.IsHigh()) // Если в како-то момент времени кнопка нажалась, то режим меняем
+        while (!_pin.IsHigh()) // Если в какой-то момент времени кнопка нажалась, то режим меняем
         {
            volatile int a = 1;
         } 

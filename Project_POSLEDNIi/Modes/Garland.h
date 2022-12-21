@@ -2,36 +2,38 @@
 #ifndef GARLAND_H
 #define GARLAND_H
 
-#include <array>
-#include "IMode.h"
+#include <array>    // Подключение библиотеки массивов
+#include "IMode.h" // Подключение интерфейса
 
-static uint32_t inline modeNumber = 0;
-
-
-using tArrayModes = std::array<IMode*, 2>;
+using tArrayModes = std::array<IMode*, 4>; // Передача массива из режима
 class Garland
 {
-public: 
-  
-  Garland(const tArrayModes& modes): _modes(modes)
+public:
+  Garland(const tArrayModes& modes): _modes(modes) // Инициализация ссылки на массив режимов
   {
 
   }
-  
-  virtual void UpdateCurrentMode() const 
+
+  void UpdateCurrentMode() const
   {
-     _modes[modeNumber]->Update();
+     _modes[modeNumber]->Update(); // Обновляет состояние светодиодов в текущем режиме
   };
-  
-  virtual void SwithNextMode() const 
-  {   
-//currentLed = ++currentLed == (sizeof...(portNums)) ? 0 : currentLed; // Перебирает все порты, и когда доходит до последнего, наинает с начала
-       modeNumber = ( modeNumber == (_modes.size()-1)) ? 0 : ++modeNumber;
-       _modes[modeNumber]->Clear();
-  };
-protected:
-   const tArrayModes& _modes;
 
+  void SwithNextMode()
+  {
+    if (modeNumber == (_modes.size()-1)) // Если номер режима = последнему режиму,
+    {
+      modeNumber = 0; // то номер режима скидываем в ноль и начинаем заново (гоняем по кругу режимы)
+    }
+    else // Иначе
+    {
+      modeNumber ++; // переключаемся на следующий режим
+    }
+    _modes[modeNumber]->Clear(); // Сброс всех светодиодов
+  };
+
+private:
+   uint32_t modeNumber = 0;    // Счётчик режимов
+   const tArrayModes& _modes;  // Массив из режимов
 };
-
 #endif

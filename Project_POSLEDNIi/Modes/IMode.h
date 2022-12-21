@@ -5,7 +5,7 @@
 #include <array>
 #include "ILED.h"
 
-using tArrayLeds = std::array<ILed*,4>; // убрать в Ledsconfig.h
+using tArrayLeds = std::array<ILed*,3>; // убрать в Ledsconfig.h
 
 class IMode
 {
@@ -16,7 +16,7 @@ public:
   
   }
   
-  virtual void Update() const 
+  virtual void Update() 
   {
      for(auto& it:_leds) 
      {
@@ -24,7 +24,7 @@ public:
      }
   };
   
-  virtual void Clear() const 
+  virtual void Clear() 
   {
     for(auto& it:_leds) 
     {

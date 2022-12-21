@@ -357,6 +357,7 @@
                     <state>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\ChessMode</state>
                     <state>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode</state>
                     <state>F:\Github\Kolodiy\Project_POSLEDNIi</state>
+                    <state>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide</state>
                 </option>
                 <option>
                     <name>CCStdIncCheck</name>
@@ -2211,10 +2212,13 @@
             </file>
         </group>
         <group>
+            <name>Slide</name>
+            <file>
+                <name>$PROJ_DIR$\Modes\Slide\SlideMode.cpp</name>
+            </file>
+        </group>
+        <group>
             <name>TreeMode</name>
-            <excluded>
-                <configuration>Debug</configuration>
-            </excluded>
             <file>
                 <name>$PROJ_DIR$\Modes\TreeMode\TreeMode.cpp</name>
             </file>

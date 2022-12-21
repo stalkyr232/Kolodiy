@@ -3,12 +3,15 @@
 #define TREEMODE_H
 
 #include "IMode.h"
-#include "ipin.h"
+#include  "Iled.h"
 
 class TreeMode: public IMode
 {
-public: 
-   TreeMode(const tArrayLeds& led) ;
-   void Clear() const override ;
+public:
+   TreeMode(const tArrayLeds& led) ; // Передача массива из светодиодав
+   void Update() override ;  // Переопределение функции
+
+private:
+  uint32_t ledNumber = 0; // Индекс светодиода
 };
 #endif

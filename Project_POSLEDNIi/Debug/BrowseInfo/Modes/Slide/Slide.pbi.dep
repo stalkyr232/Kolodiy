@@ -1,6 +1,6 @@
-F:\Github\Kolodiy\Project_POSLEDNIi\Debug\BrowseInfo\Modes\TreeMode\TreeMode.pbi: \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode\TreeMode.cpp \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode\TreeMode.h \
+F:\Github\Kolodiy\Project_POSLEDNIi\Debug\BrowseInfo\Modes\Slide\Slide.pbi: \
+  F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide\Slide.cpp \
+  F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide\SlideMode.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\IMode.h \
   F:\IAR\arm\inc\cpp\array F:\IAR\arm\inc\cpp\algorithm \
   F:\IAR\arm\inc\cpp\xmemory F:\IAR\arm\inc\cpp\xmemory0 \
@@ -39,5 +39,4 @@ F:\Github\Kolodiy\Project_POSLEDNIi\Debug\BrowseInfo\Modes\TreeMode\TreeMode.pbi
   F:\IAR\arm\inc\c\time64.h F:\IAR\arm\inc\cpp\system_error \
   F:\IAR\arm\inc\cpp\cerrno F:\IAR\arm\inc\c\errno.h \
   F:\IAR\arm\inc\cpp\tuple \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\ILED.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\Iled.h
+  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\ILED.h

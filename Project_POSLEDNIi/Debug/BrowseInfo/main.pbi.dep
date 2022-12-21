@@ -1,5 +1,4 @@
 F:\Github\Kolodiy\Project_POSLEDNIi\Debug\BrowseInfo\main.pbi: \
-  F:\Github\Kolodiy\Project_POSLEDNIi\main.cpp \
   F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\rccregisters.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\rccfieldvalues.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
@@ -34,27 +33,18 @@ F:\Github\Kolodiy\Project_POSLEDNIi\Debug\BrowseInfo\main.pbi: \
   F:\Github\CortexLib\AbstractHardware\Registers\registerbase.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\registertype.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\register.hpp \
-  F:\Github\CortexLib\AbstractHardware\Registers\fieldvalue.hpp \
-  F:\Github\CortexLib\AbstractHardware\Registers\accessmode.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\gpiocregisters.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpiocfieldvalues.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\gpioaregisters.hpp \
   F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpioafieldvalues.hpp \
-  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\gpiodregisters.hpp \
-  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpiodfieldvalues.hpp \
-  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\gpiobregisters.hpp \
-  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\gpiobfieldvalues.hpp \
   F:\Github\Kolodiy\Project_POSLEDNIi\Hardware\Pin\pinconfig.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Hardware\Pin\pin.h \
-  F:\IAR\arm\inc\cpp\cinttypes F:\IAR\arm\inc\c\inttypes.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Hardware\Pin\ipin.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\Button\IPinReadable.h \
+  F:\Github\Kolodiy\Project_POSLEDNIi\Components\Button\iPinReadable.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\LED.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\ILED.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Hardware\Pin\ipin.h \
+  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\Iled.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Components\Button\Button.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Components\Button\IButton.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\Button\iPinReadable.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\AllMode\AllMode.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\IMode.h \
   F:\IAR\arm\inc\cpp\array F:\IAR\arm\inc\cpp\iterator \
@@ -71,11 +61,8 @@ F:\Github\Kolodiy\Project_POSLEDNIi\Debug\BrowseInfo\main.pbi: \
   F:\IAR\arm\inc\c\time.h F:\IAR\arm\inc\c\time64.h \
   F:\IAR\arm\inc\cpp\system_error F:\IAR\arm\inc\cpp\cerrno \
   F:\IAR\arm\inc\c\errno.h F:\IAR\arm\inc\cpp\tuple \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\ILED.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\iled.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\ChessMode\ChessMode.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Components\LED\Iled.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode\TreeMode.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Garland.h \
-  F:\Github\Kolodiy\Project_POSLEDNIi\Modes\IMode.h \
-  F:\IAR\arm\inc\cpp\iostream
+  F:\IAR\arm\inc\cpp\iostream \
+  F:\Github\Kolodiy\Project_POSLEDNIi\main.cpp

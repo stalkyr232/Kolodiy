@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<userOverrides>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\Components\Button\Button.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\AllMode\AllMode.h</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Garland.h</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide\Slide.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide\Slide.h</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode\TreeMode.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode\TreeMode.h</path>
+        <encoding>Win-1251</encoding>
+    </override>
+    <override>
+        <path>F:\Github\Kolodiy\Project_POSLEDNIi\main.cpp</path>
+        <encoding>Win-1251</encoding>
+    </override>
+</userOverrides>

@@ -2,9 +2,6 @@
 #ifndef PIN_H //Защита от двойного подключения заголовочного файла
 #define PIN_H //Защита от двойного подключения заголовочного файла
 
-#include "gpiocregisters.hpp" 
-#include <cinttypes> 
-
 #include "ipin.h" // подключение интерфейса
 #include "IPinReadable.h" // подключение интерфейса
 
