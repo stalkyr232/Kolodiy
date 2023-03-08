@@ -63,6 +63,13 @@ F:\Github\Kolodiy\Project_POSLEDNIi\Debug\BrowseInfo\main.pbi: \
   F:\IAR\arm\inc\c\errno.h F:\IAR\arm\inc\cpp\tuple \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\ChessMode\ChessMode.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode\TreeMode.h \
+  F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide\SlideMode.h \
   F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Garland.h \
   F:\IAR\arm\inc\cpp\iostream \
+  F:\Github\CortexLib\AbstractHardware\Registers\CortexM4\scbregisters.hpp \
+  F:\Github\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues\scbfieldvalues.hpp \
+  F:\Github\CortexLib\AbstractHardware\Registers\CortexM4\stkregisters.hpp \
+  F:\Github\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues\stkfieldvalues.hpp \
+  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\tim5registers.hpp \
+  F:\Github\CortexLib\AbstractHardware\Registers\STM32F411\FieldValues\tim5fieldvalues.hpp \
   F:\Github\Kolodiy\Project_POSLEDNIi\main.cpp

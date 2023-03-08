@@ -39,6 +39,12 @@ F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode
 -I
 F:\Github\Kolodiy\Project_POSLEDNIi
 -I
+F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide
+-I
+F:\Github\CortexLib\AbstractHardware\Registers\CortexM4
+-I
+F:\Github\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues
+-I
 F:\IAR\arm\inc\cpp
 -I
 F:\IAR\arm\inc\c\aarch32
@@ -74,6 +80,12 @@ F:\Github\Kolodiy\Project_POSLEDNIi\Modes\ChessMode
 F:\Github\Kolodiy\Project_POSLEDNIi\Modes\TreeMode
 -I
 F:\Github\Kolodiy\Project_POSLEDNIi
+-I
+F:\Github\Kolodiy\Project_POSLEDNIi\Modes\Slide
+-I
+F:\Github\CortexLib\AbstractHardware\Registers\CortexM4
+-I
+F:\Github\CortexLib\AbstractHardware\Registers\CortexM4\FieldValues
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
